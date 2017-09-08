@@ -57,10 +57,17 @@
                 "crypto/hash.c",
                 "crypto/aesb.c",
                 "crypto/wild_keccak.cpp",
+		"tribus.c",
+            
+
+
+
+
             ],
             "include_dirs": [
                 "crypto",
                 "sha3",
+		"sph",
                 "<!(node -e \"require('nan')\")"
             ],
             "cflags_cc": [
